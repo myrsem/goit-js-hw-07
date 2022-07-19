@@ -42,7 +42,7 @@ function openOriginalImage(event) {
     }
 }
 
-list.addEventListener('click', openOriginalImage);
+document.addEventListener('click', openOriginalImage);
 
 function onEscClose(event) {
     if (event.code === 'Escape') {
